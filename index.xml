@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<?xml:stylesheet type="text/xsl" href="common/layout.xsl" ?>
+
+<lesson title="Урок №1" next="section01.xml" prev="index.xml">
+<h2>Урок №1.</h2>
+<ul>
+	<li><a href="section01.xml">Предварительные рассуждения.</a></li>
+	<li><a href="section02.xml">Инсталляция Visual C++ 6.0</a></li>
+	<li><a href="section021.xml">Инсталляция Microsoft Visual Studio.NET</a></li>
+	<li><a href="section022.xml">Инсталляция Microsoft Visual Studio 2005</a></li>
+	<li><a href="section023.xml">Инсталляция Microsoft Visual Studio 2008</a></li>
+	<li><a href="section03.xml">Первый проект.</a></li>
+	<li><a href="section04.xml">Вывод данных.</a></li>
+	<li><a href="section05.xml">Типы данных.</a></li>
+	<li><a href="section06.xml">Переменные и константы.</a></li>
+	<li><a href="section07.xml">Ввод данных.</a></li>
+	<li><a href="section08.xml">Литералы.</a></li>
+	<li><a href="HomeTask.xml">Домашнее задание.</a></li>
+</ul>
+</lesson>
