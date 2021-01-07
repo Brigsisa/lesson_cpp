@@ -7,6 +7,8 @@ using namespace std;
 void gotoxy(short x, short y)
 {
     COORD p = { x, y };
+    // Используэм структуру COORD с принятим нами названием p
+    // https://narovol.narod.ru/_tbkp/New_MSDN_API/Console/str_coord.htm
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), p);
     //Стандартные функции SetConsoleCursorPosition и GetStdHandle от WinApi
     // https://docs.microsoft.com/en-us/windows/console/getstdhandle
