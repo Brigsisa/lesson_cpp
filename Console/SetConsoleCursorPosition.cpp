@@ -3,10 +3,14 @@
 
 using namespace std;
 
+// Создайом функцию gotoxy для перемещения курсора по координатам x, y
 void gotoxy(short x, short y)
 {
     COORD p = { x, y };
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), p);
+    //Стандартные функции SetConsoleCursorPosition и GetStdHandle от WinApi
+    // https://docs.microsoft.com/en-us/windows/console/getstdhandle
+    // https://docs.microsoft.com/en-us/windows/console/setconsolecursorposition
 }
 
 int main()
